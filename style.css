@@ -1,0 +1,67 @@
+html {
+    font-size: 14px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+  
+.firstDiv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 80px;
+    }
+
+.firstLi {
+    display: inline;
+    float: right;
+    }
+      
+.firstLi a {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    }
+.firstLi a:hover{
+    text-decoration: underline;
+}
+
+button{
+    height: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  body{
+      text-align: center;
+  }
+  input{
+      width: 500px;
+      line-height: 35px;
+      border-radius: 25px;
+      border: 2px thin;
+  }
+  
+  .myDiv{
+    list-style-type: none;
+    position: fixed;
+    background-color: rgb(238, 234, 234);
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+  }
+  .liDiv{
+      display: inline;
+      float: left;
+  }
+  
+  .liDiv a{
+    display:inline-block;
+    color: black;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+  }
